@@ -17,7 +17,7 @@ def safe_parse_as_json_like(x):
     if s == "":
         return None
     try:
-        if (s[0] == "{" and s[-1] == "}") or (s[0] == "[" and s[-1] == "]"):
+        if len(s) >= 2 and ((s[0] == "{" and s[-1] == "}") or (s[0] == "[" and s[-1] == "]")):
             return json.loads(s)
     except Exception:
         pass
