@@ -97,19 +97,30 @@ pip install datasets pandas numpy matplotlib seaborn scipy jupyter notebook
 
 ## Usage
 
-1. Install dependencies:
+### Quick Start
+
+For a quick demonstration, run the standalone script:
+
 ```bash
-pip install -r requirements.txt  # if available
-# or
-pip install datasets pandas numpy matplotlib seaborn scipy jupyter notebook
+pip install datasets pandas numpy matplotlib seaborn scipy
+python3 quick_start.py
 ```
 
-2. Run the notebook:
+This will generate a basic analysis and visualization in seconds.
+
+### Full Analysis
+
+1. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the complete notebook:
 ```bash
 jupyter notebook bug_fix_context_characterization.ipynb
 ```
 
-3. Execute all cells to generate the complete analysis
+3. Execute all cells to generate the comprehensive analysis with all visualizations and exports
 
 ## Data Source
 
